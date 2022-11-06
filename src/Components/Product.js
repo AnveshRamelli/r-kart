@@ -9,7 +9,7 @@ const Product = () => {
   const renderAllProducts = products.map((item) => {
     return (
         <div className="card" key={item.id}>
-        <Link to ={`product/${item.id}`}><img src={item.image}></img></Link>
+        <Link to ={`product/${item.id}`}><img src={item.image} alt=""></img></Link>
         <p>{item.title}</p>
         <p>${item.price}</p>
       </div>

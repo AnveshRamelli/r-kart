@@ -12,7 +12,7 @@ const Cart = () => {
 
     return (
       <div className="card-cart" key={item.id}>
-        <img src={item.image}></img>
+        <img src={item.image} alt=""></img>
         <h4>{item.title}</h4>
         <div className="button-container">
           <button onClick={()=> dispatch(increaseQuantity(item.id))}>+</button>

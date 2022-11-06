@@ -17,21 +17,10 @@ const ProductDetails = () => {
       );
   }, [productId]);
 
-  const toggleFavourite = () => {
-    setProduct((product) => {
-      return {
-        ...product,
-        isFavourite: !product.isFavourite,
-      };
-    });
-  };
-//   const setFavourite = product.isFavourite ? `&#9829`; : &#9825;
-
   return (
     <div className="single-product">
       <div>
-        <img src={product.image}></img>
-        {/* {product.isFavourite ? <span>&#9829</span> : } */}
+        <img src={product.image} alt=""></img>
         <span>&#9829;</span>
         <button onClick={()=>dispatch(addtoCart({...product,quantity:1}))}>Add to Cart</button>
       </div>
