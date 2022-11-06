@@ -1,0 +1,79 @@
+.cart-container {
+  width: 70vw;
+  /* border: 1px solid black; */
+  margin-top: 3vw;
+  position: relative;
+  left: 15%;
+}
+
+.card-cart {
+  height: 20vh;
+  /* border: 1px solid black; */
+  position: relative;
+}
+
+.card-cart img {
+  position: absolute;
+  top: 5%;
+  left: 1%;
+  width: 7vw;
+  height: 15vh;
+}
+
+.card-cart h4 {
+  position: absolute;
+  top: 10%;
+  left: 13%;
+  width: 400px;
+}
+
+.card-cart .button-container {
+  position: absolute;
+  left: 65%;
+  top: 35%;
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid black; */
+  width: 12vw;
+}
+
+.card-cart .button-container p {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.card-cart .button-container button {
+  width: 5vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.card-cart button:active {
+    transform: scale(0.95);
+}
+
+.card-cart p:last-child {
+    position: absolute;
+    right: 3%;
+    top: 35%;
+    font-size: 24px;
+}
+
+.card-cart .remove-btn {
+  position: absolute;
+  right: 2%;
+  top: 5px;
+  background-color: red;
+  color: white;
+  width: 70px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}

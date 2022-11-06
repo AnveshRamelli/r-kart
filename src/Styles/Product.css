@@ -1,0 +1,34 @@
+.card-container {
+    padding: 10px;
+    margin-top: 1vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 270px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card img {
+    width: 170px;
+    height: 170px;
+    margin-top: 5px;
+}
+
+.card p {
+    margin: 5px 2px;
+}
+
+.card p:last-child {
+    align-self:flex-start;
+    margin:20px;
+    font-weight: bold;
+}

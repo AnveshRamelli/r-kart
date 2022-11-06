@@ -1,0 +1,38 @@
+header {
+  width: 100vw;
+  height: 10vh;
+  background-color: tomato;
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 10vh;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+header input {
+  width: 50vw;
+  height: 5vh;
+  border-radius: 5px;
+  margin-top: 17px;
+  padding-left: 3px;
+  font-size: 16px;
+}
+
+header p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header span {
+  font-size: 40px;
+}
+
+header span:last-child {
+  font-size: 30px;
+  color: white;
+  font-weight: 400;
+  margin-left: -10px;
+}
