@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with Create React App and deployed version can be found here: [R-Kart](https://r-kart.netlify.app/) 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -69,4 +69,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-#### Deployed version [R-Kart](https://r-kart.netlify.app/)
